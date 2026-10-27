@@ -1,0 +1,48 @@
+# Raw datasets
+data/*.csv
+data/*.xlsx
+data/*.xls
+data/*.parquet
+data/*.json
+
+# Database backups and dumps
+*.sql.gz
+*.dump
+*.backup
+*.bak
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python cache (for future analysis)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*~
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# macOS system files
+.DS_Store
+
+# IDE settings
+.vscode/
+.idea/
+
+# Office temporary files
+~$*
